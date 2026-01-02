@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>p0102</title>
+    </head>
+    <body>
+        <div id="root">
+            <!--
+                React App은 index.html 파일만을 가지고, 
+                이 파일의 id="root"안의 컴포넌트가 변경되는 방법이다.
+                SPA(Single Page Application)
+                SPA는 페이지 랜더링 방식이 대부분 (CSR)Client Side Rendering을 사용
+                클라이언트 브라우즈에서 JavaScript를 이용하여 페이지(실제로는 컴포넌트) 교체가 발생
+                
+                ※ SSR(Server Side Rendering) : 백엔드(서버)측에서 페이지 교체가 발생
+                ex) JSP:: WAS가 스크립트릿을 해석하여 하나의 HTML페이지를 렌러링하여 응답
+
+                그래서 SPA방식은 a태그(새로운 페이지를 요청하여 렌더링 태그) 링크를 사용할 수 없다.
+                SPA방식은 브라우저의 History API를 이용하여 
+                ex) 켬포넌트 이름과 URL을 매핑하여 저장해 두고 사용하는 라우팅 하는 방식
+                개발자가 History API를 이용하여 라우팅 로직을 구현하는 작업 - 번거롭고 복잡, 가독성 문제도 방생
+                이미 구현된 라이브러리를 사용(패키지 설치 사용): react-router-dom
+                vite: 비트, 바이트, 바잇, 바잍
+
+                react-router-dom 패키지
+
+            -->
+            
+        </div>
+        <script type="module" src="/src/main.tsx"></script>
+    </body>
+</html>
